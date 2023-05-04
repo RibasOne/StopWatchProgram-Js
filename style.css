@@ -1,0 +1,31 @@
+body {
+    background: url(imgs/spongebob.jpg);
+}
+
+.timerBtn {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #464646;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+.timerBtn:hover {
+    background-color: lightseagreen;
+}
+
+#timeDisplay {
+    font-size: 75px;
+    color: lightseagreen;
+    font-family: consolas, monospace;;
+}
+
+#timeContainer {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #bebebe;
+}
